@@ -24,6 +24,7 @@ func Plugin(ctx context.Context) *plugin.Plugin {
 			"zendesk_ticket_audit": tableZendeskTicketAudit(),
 			"zendesk_trigger":      tableZendeskTrigger(),
 			"zendesk_user":         tableZendeskUser(),
+			"zendesk_jira_link":    tableZendeskJiraLink(),
 		},
 	}
 	return p
